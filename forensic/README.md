@@ -2,7 +2,7 @@
 
 These papers describe **how the running program is supposed to work**, compared to written law. They are **not law**. If a sentence here disagrees with a private `governance/` chunk, the chunk wins.
 
-**Status: unfinished product.** Work in progress. Continuous development and testing are in progress.
+**Status:** work in progress.
 
 **Contact:** [github.com/brmcin79-maker](https://github.com/brmcin79-maker) · brmcin79@gmail.com
 

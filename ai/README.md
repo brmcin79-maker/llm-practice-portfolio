@@ -2,7 +2,7 @@
 
 **Kind:** Public snapshot. Not law. Not a coding paper.
 
-**Status: unfinished product.** Work in progress. Continuous development and testing are in progress. This is not a finished application.
+**Status:** work in progress. This is not a finished application.
 
 **Snapshot:** 2026-09-01 · product `79eeb97` (CF-096 Complete)
 

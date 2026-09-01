@@ -4,7 +4,7 @@
 
 This folder is the education. Daniel is the program that compiled it. The model was not dropped. What was learned was used to **gate** it, make sittings deterministic, and work with models in an IDE without letting chat become the authority.
 
-**Status: unfinished product.** Work in progress. Continuous development and testing are in progress. This page will grow as more private files are sorted.
+**Status:** work in progress. This page will grow as more private files are sorted.
 
 **Sources (private):**
 
@@ -12,7 +12,7 @@ This folder is the education. Daniel is the program that compiled it. The model 
 - Pre-V1 phase program — local Drive folder, still being organized. Not yet copied into the private archive.
 - Early experiments — [brmcin79-maker/AI-LLM-Archive](https://github.com/brmcin79-maker/AI-LLM-Archive) (first file set). Stays private.
 
-Employers who are not granted access will not see those files. They can see the methods that still have a job in the current environment.
+Private sources stay private. This page is the methods.
 
 **Contact:** [github.com/brmcin79-maker](https://github.com/brmcin79-maker) · brmcin79@gmail.com
 

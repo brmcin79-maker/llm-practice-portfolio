@@ -2,7 +2,7 @@
 
 One proof of a gate in code. Curated excerpts of the core Python used to keep a **deterministic floor** and to **gate** optional AI. Full source stays in the private product repository.
 
-**Status: unfinished product.** Work in progress. Continuous development and testing are in progress. This is not shipped product code.
+**Status:** work in progress. This is not shipped product code.
 
 **Contact:** [github.com/brmcin79-maker](https://github.com/brmcin79-maker) · brmcin79@gmail.com
 

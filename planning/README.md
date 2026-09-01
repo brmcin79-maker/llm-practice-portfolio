@@ -6,7 +6,7 @@ It lives in the public [LLM Practice Portfolio](https://github.com/brmcin79-make
 
 The short product picture is in the [repository README](../README.md).
 
-**Status: unfinished product.** Work in progress. Continuous development and testing are in progress. Architecture and written law are further along than the everyday collaborative feel of the running program. This is not a finished application.
+**Status:** work in progress. Architecture and written law are further along than everyday collaborative feel. This is not a finished application.
 
 **Contact:** [github.com/brmcin79-maker](https://github.com/brmcin79-maker) · brmcin79@gmail.com
 
@@ -59,7 +59,7 @@ The current design bet (north star **N-03**): **local decides the beat and speak
 | **Archive** | Historical experiments and early methods. **Not law.** | `brmcin79-maker/AI-LLM-Archive` (private) |
 | **V1 (Task Logger)** | First local product. Frozen. Behavior reference only. | Local folder `task logger agent` — not in development |
 
-Those GitHub projects are the working remotes. They are not this public overview. If an employer is later granted access, those names are the ones to attach. The private archive is source material only. The public map of how the LLM practice evolved is [`../evolution/`](../evolution/README.md).
+Those GitHub projects are the working remotes. They are not this public portfolio. The private archive is source material only. How the LLM practice evolved: [`../evolution/`](../evolution/README.md).
 
 **Hard rules (how the homes stay separate)**
 

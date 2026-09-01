@@ -2,7 +2,7 @@
 
 **Kind:** Public map of the private product repository (`Brooke-Daniel/daniel-v2`). Not the application. Not a feature list you can run.
 
-**Status: unfinished product.** Work in progress. Continuous development and testing are in progress. Architecture and written law are further along than the everyday collaborative feel of the running program.
+**Status:** work in progress. Architecture and written law are further along than everyday collaborative feel.
 
 **Snapshot:** 2026-09-01 · product `79eeb97` · command table **309** · catalog areas **17**
 

@@ -19,7 +19,7 @@ Daniel V2 is a private local program used to apply that education. This reposito
 | **LLM literacy** | Hosted chat (OpenAI ChatGPT, then Gemini from about April 2025), then IDE work. Extensive **LLM scripting** before any compiler: create, name, and version document families (authority matrices, boot protocols, migration packets, numbered-turn reports). |
 | **What models are** | Pattern engines. Strong at draft, paraphrase, and a hinted classification. Blank when the window ends. They do not remember, enforce consent, or hold a command table. |
 | **What must be code** | Consent gates, command tables, searchable activity logs, living docs bound to the real table, local classification of a typed line. |
-| **How models are used in development** | Separate jobs so one model does not plan, implement, and grade the same change. Written constraints in small chunks. One scoped paper at a time. Brainstorm (AI Studio) is not the same job as implement (Cursor). |
+| **How models are used in development** | Separate jobs so one model does not plan, implement, and grade the same change. Written constraints in small chunks. One scoped paper at a time. Brainstorm (AI Studio) is not the same job as implement (Cursor). Environments also include Visual Studio and VS Code with GitHub Copilot. |
 | **How work is evaluated** | Hands-on review against written criteria. Gaps stay named. A slice is complete when tests and a receipt land — not when a model says it is done. |
 
 The education path is [evolution/](evolution/README.md).
@@ -51,6 +51,8 @@ This practice does not depend on Daniel as a released application.
 | Brainstorm | Google AI Studio / Gemini | Explore options against a fixed brief | Change product code or become the spec |
 | Plan | Cursor | Compare the running system to written constraints; write **one** implementation paper | Implement that paper |
 | Implement | Cursor | Ship that paper, with tests and a receipt | Invent the next slice from chat memory |
+
+**Tools.** Visual Studio and VS Code with GitHub Copilot; Cursor; Google AI Studio / Gemini. Copilot is everyday editor assistance. Cursor and Studio are the split-role loop on this practice (brainstorm ≠ implement).
 
 **Written constraints, not prompt memory.** Law lives in a planning repository as short chunks. Product code lives in a second repository. Copies of constitutions are not vendored into the app — they drift. Session chat is not the source of truth.
 

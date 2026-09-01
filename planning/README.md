@@ -313,7 +313,7 @@ Private Planning opens at `BOOT.md`. The product repo alone opens at `CANON_POIN
 - The Planning tree is large. Many milestone files are **Complete** history; the live lock is `BOOT.md` + `governance/` + the sitting script.
 - Internal `README.md` in the private repo can lag the sitting. `BOOT.md` is the dispatcher.
 - Forensic maps and Studio receipts are working memory. They can be wrong relative to chunks; chunks win. The copies in this folder can also lag the private originals.
-- The product still has open stay-talk work. A public overview that implied a finished partner would be inaccurate.
+- The product still has open stay-talk work. These notes do not imply a finished partner.
 
 ---
 

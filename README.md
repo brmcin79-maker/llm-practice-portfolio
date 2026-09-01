@@ -1,6 +1,6 @@
-# LLM practice — public notes
+# LLM Practice Portfolio
 
-Public notes on self-directed work with large language models: what they can do, what they cannot, and how to collaborate with them to develop software without letting chat become the authority.
+What I learned about large language models, how I applied it in development, and the work that backs it. Chat is not the authority. The application repositories stay private.
 
 Daniel V2 is a private local program used to apply that education. This repository is the methods and outcomes. The application and planning trees are not published here.
 

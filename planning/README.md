@@ -2,7 +2,7 @@
 
 This document describes the **Planning** workspace for Daniel V2: what it is for, how it is organized, how law is stored, and how language-model collaborators are split so chat is not the authority. It is a map of **how models are run during development**.
 
-It lives in the public overview repository ([Project-Daniel-V2-Overview](https://github.com/brmcin79-maker/Project-Daniel-V2-Overview)). The working Planning repository and the product repository are **private**. This file is a map of the system, not a substitute for the private files, and not the product itself.
+It lives in the public [LLM Practice Portfolio](https://github.com/brmcin79-maker/llm-practice-portfolio). The working Planning repository and the product repository are **private**. This file is a map of the system, not a substitute for the private files, and not the product itself.
 
 The short product picture is in the [repository README](../README.md).
 

@@ -28,7 +28,7 @@ Snapshot on these copies: product `79eeb97`. Collaborative-talk work is ongoing.
 3. [How Daniel thinks when a model is involved](HOW_DANIEL_THINKS_WITH_MODEL.md) — quiet help, paint, sandwich, gates
 4. [How Daniel talks](HOW_DANIEL_TALKS.md) — dual register, people words, defined words, voice helpers
 5. [How Daniel tasks](HOW_DANIEL_TASKS.md) — ledger, writes, project heading, complete/drop, stay-one
-6. [How a pulse applies awareness](HOW_DANIEL_PULSES.md) — the clock; hold vs spine vs pack; **barriers still being earned** (collaborative chat, applied continuity, logic in the beat, house → this pulse, quiet help)
+6. [How a pulse applies awareness](HOW_DANIEL_PULSES.md) — the clock; hold vs spine vs pack; **open barriers** listed on the [root README](../README.md#open-barriers) (collaborative chat, awareness through a block, suggest/pivot, house → this pulse, quiet help)
 
 ## Not copied here
 

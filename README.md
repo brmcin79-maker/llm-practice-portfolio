@@ -70,7 +70,7 @@ Planning map: [planning/](planning/README.md).
 
 A local-first terminal work companion: ledger, pulse log, stay-with talk, optional gated models. Intelligence means continuity with consent and a next method when work is blocked. Local code decides the beat and speaks it. The session still moves with AI off.
 
-The program is in active development. Architecture is ahead of everyday collaborative talk: the next sentence using the last turn, stored awareness applied on this pulse, and optional assist that actually changes the take. Those items are listed under **Current focus** below.
+The program is in active development. The gaps below are the live research — named on purpose.
 
 | Topic | Open |
 |-------|------|
@@ -91,18 +91,19 @@ The program is in active development. Architecture is ahead of everyday collabor
 
 ---
 
-## Current focus
+## Open barriers
 
-The deterministic floor is in place. Work continues on **collaborative local talk**: using the last turn, applying stored awareness to this pulse, and making optional model assist reliable. That is not solved by handing the session to a model or by shipping a domain knowledgebase.
+The deterministic floor is in place: local beat, consent, AI off still moves. What is still being earned is **how that floor behaves as a collaborator**. These are the same problems named in design sittings. They are not solved by handing the session to a model or by shipping a domain knowledgebase.
 
-| Theme | In place | Still in progress |
-|-------|----------|-------------------|
-| Collaborative local talk | Stay on the named task; stray English is not a silent write | Next sentence should consume the last answer |
-| Logic on this turn | Line families; one method when blocked | Apply what they just named |
-| Awareness → this pulse | Files and a searchable pulse log | Use stored state in the spoken take |
-| Optional model assist | Nested consent; local review after | Assist that changes the take, or an honest miss |
+Full forensic compare: [How a pulse applies awareness](forensic/HOW_DANIEL_PULSES.md).
 
-Compare: [How a pulse applies awareness](forensic/HOW_DANIEL_PULSES.md).
+| Barrier | In place | Still open |
+|---------|----------|------------|
+| **Deterministic collaborative chat** | Stay on the named task; leftover English is not a silent write | Every answer should change the next sentence. Reprinting the same list, or climbing a step they already answered, is the hole |
+| **Awareness through a blocked task** | Ledger and pulse log store what is in front; stuck / empty / nod are real doors; one method this pulse | Use that stored state to work *through* the block. The next card should apply what they just said — not ignore it or re-ask |
+| **Intelligence: suggest and pivot** | Continuity with consent; one next method when blocked (local, not a bigger model) | Suggest a useful next move from facts already in front. Pivot when the current method is stuck — still this task, not a new job or a canned lecture |
+| **House → this pulse** | Files and the spine remember more than this pulse speaks | Apply stored awareness in the spoken take without dumping the house |
+| **Optional model assist** | Nested consent; local review after the reply | A handle that changes the take, or an honest miss — not a second mouth |
 
 ---
 

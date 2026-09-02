@@ -166,7 +166,7 @@ The bus **holds**. `set_turn_meta`, `append_event`, active boundary, SHOW BOUNDA
 | House → pulse | Bus, hold, pack exist | Coverage unused by the mouth | No |
 | Quiet help | Nested gate; fail-safe | Spend without an earn | No |
 
-Nothing in this snapshot **fails** the named locks. The sitting is **drift**: architecture ahead of collaborative feel. That sentence is already on the public root README. This paper is the compare behind it.
+Nothing in this snapshot **fails** the named locks. The sitting is **drift**: architecture ahead of collaborative feel. The same five barriers are listed on the [public root README](../README.md#open-barriers). This paper is the compare behind that list.
 
 ---
 

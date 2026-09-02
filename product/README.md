@@ -134,7 +134,7 @@ Not a tour of all 309 commands. These are the ones that show the education compi
 
 ## Honest limits
 
-- This is not documentation of a completed consumer app. Stay-talk and quiet help are wanted and not yet a reliable earn every Try. What is still being solved — collaboration, beat logic, spine awareness applied to this pulse — is named on the [root README](../README.md) and in [HOW_DANIEL_PULSES.md](../forensic/HOW_DANIEL_PULSES.md).
+- This is not documentation of a completed consumer app. Stay-talk and quiet help are wanted and not yet a reliable earn every Try. Open barriers — deterministic collaborative chat, awareness through a block, intelligence that can suggest and pivot — are named on the [root README](../README.md#open-barriers) and in [HOW_DANIEL_PULSES.md](../forensic/HOW_DANIEL_PULSES.md).
 - Paint can still leak kit the local take did not name. Those holes are named on the forensic maps, not hidden.
 - A public page that listed every command would pretend the catalog is the product. The catalog is the **index**. The product is the floor plus the gates.
 - Constitutions are not in this folder. Do not treat this overview as law.

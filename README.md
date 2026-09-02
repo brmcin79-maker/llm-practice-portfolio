@@ -70,7 +70,7 @@ Planning map: [planning/](planning/README.md).
 
 A local-first terminal work companion: ledger, pulse log, stay-with talk, optional gated models. Intelligence means continuity with consent and a next method when work is blocked. Local code decides the beat and speaks it. The session still moves with AI off.
 
-The program is in active development. Design is ahead of everyday collaborative feel. That gap is named; it is not hidden.
+The program is in active development. Architecture is ahead of everyday collaborative talk: the next sentence using the last turn, stored awareness applied on this pulse, and optional assist that actually changes the take. Those items are listed under **Current focus** below.
 
 | Topic | Open |
 |-------|------|

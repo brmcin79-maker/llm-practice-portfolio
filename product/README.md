@@ -37,6 +37,7 @@ The [evolution](../evolution/README.md) page is how that mix was learned. This p
 | **Stay-with** | Talk through named work. Local classifies the line (stuck, empty, nod, leftover). When you stall, he puts **one method** on the table that is still this task. |
 | **Banner** | Honest modes: local logic on; AI chat off until connected; live web off until consent; quiet help off until its own door. |
 | **Living docs** | One command table, several views: HELP (start-here), **Atlas** (map of what he can do, people words), **README AUTO** (bounded generated middle). `REFRESH DOCS` rebuilds them. Snapshot is *now*; Atlas/README are the encyclopedia — one write does not cascade both. |
+| **Dossiers** | **Ingest** stores files and pasted text locally (`INGEST TEXT` / `FILE` / `CLIPBOARD`). Lock + **STUDY** work without AI. Chat may grant a named slice when connected — see [ingest section](#document-ingest-and-dossiers). |
 
 Intelligence, as coded: **continuity with consent** (files remember; writes wait) and **pathing when blocked** (one next method). He is not a second mind and not a house model.
 
@@ -113,6 +114,61 @@ These are not prompt instructions. They are code paths.
 Not a tour of all 309 commands. These are the ones that show the education compiled.
 
 **Stay-with and pathing.** You can talk through a named job without the model. Stuck → one method. Empty possession → need-list, not invented kit. That floor is the product. Collaborative feel is still being earned ([pulse barriers](../forensic/HOW_DANIEL_PULSES.md); [leftover](../forensic/HOW_DANIEL_RESPONDS.md)).
+
+### Document ingest and dossiers
+
+**Ingest is environment.** Storing text does not call a model. That separation is law in the product, not a prompt instruction.
+
+**Bring material in (always local).**
+
+| Command / path | What happens |
+|----------------|--------------|
+| `INGEST TEXT` | Paste or type on the next line → new dossier (`D1`, `D2`, …) under `data/dossiers/` |
+| `INGEST FILE` | Read a local text file by path (browser drop is not supported — type the path) |
+| `INGEST CLIPBOARD` | Thin alias for pasted text |
+| Scenario Build **BRING IN** | Same Documents seam during a numbered hub walk — not a second parser |
+| `OCR` | Optional local engine (tesseract / pdfminer after pip consent) → dossier; graceful miss if engine missing |
+
+Each dossier gets `content.md`, `meta.json`, and a spine event. Very long pastes may clip on first ingest (12,000 characters); the full file path still works for `LONGTEXT CHECK`. API-key-shaped content is refused — Daniel warns and does not store it in a dossier.
+
+**Dossier lifecycle (always local).**
+
+| Command | Job |
+|---------|-----|
+| `LIST DOSSIERS` | Numbered list; marks active dossier |
+| `OPEN DOSSIER Dn` | Set active; show preview |
+| `LOCK DOSSIER` | Required before **STUDY** — locks the body for outline / quiz / critique |
+| Export / share packs | Dossiers can be included in local share exports (sanitize-first) |
+
+**With AI off — what you still get.**
+
+- Store, list, open, lock dossiers
+- **STUDY OUTLINE** — markdown headings + first key sentences (DET templates)
+- **STUDY QUIZ** — fill-in prompts from the text (answer yourself)
+- **STUDY CRITIQUE** — length, heading count, structure gaps
+- **LONGTEXT CHECK** — size a paste or `@path` before any model job (soft 50k warn · hard 200k refuse)
+- Search spine for ingest events (`INGEST_TEXT`, `DOSSIER_CREATE`, …)
+
+None of those paths spend a model call. STUDY modes say so explicitly: *“this path did not call a model.”*
+
+**With AI on — what changes (and what does not).**
+
+| Layer | Behavior |
+|-------|----------|
+| Ingest write | **Unchanged.** Still no model on `INGEST *`. |
+| Free chat | If talk smells like *the dossier* / *that file* / *the essay*, local runs `_maybe_grant_environment`: one **strip** into the hot-slice pack, capped ~1,600 chars, with a **coverage** line so the model cannot claim a close read of the whole file. |
+| Long paste toward chat | **N11 longtext** runs before the adapter: warn or refuse; suggest chunking, dossier study, or export packs. |
+| Model limits | No tool belt — the model cannot `LIST DOSSIERS`, open files, or walk the catalog. Retrieve is local; grant is local. |
+| After reply | Local wins: strip quotes not in the granted strip, invented kit, fake ids. |
+
+**Honest limits (named, not hidden).**
+
+- Fitting a window is not reading. A dossier on disk does not mean this pulse applied it — that is the [house → this pulse](../forensic/HOW_DANIEL_PULSES.md#34-house--this-pulse) barrier.
+- `DRIVE LIST` / `DRIVE GET` are consent-ready stubs; live Google Drive is not authenticated in the current snapshot — copy locally, then `INGEST FILE`.
+- Pictures and some binary types are not read in the terminal window; OCR is the optional path.
+- AI-enhanced STUDY (model-generated quiz depth, etc.) is not the DET default — connect a chat path and grant; local STUDY remains the floor.
+
+Consent story for the pack: [ai/](../ai/README.md#ingest-and-dossiers).
 
 **Pulses as an address.** `SEARCH PULSE`, `SEARCH CHAT`, date filters, session chronicles. V1 pulse journals can be migrated (`MIGRATE PULSE PACKS`) without deleting sources. Enhanced activity is findable after the window dies. That job started as LLM-scripted turn/pulse reports; it is now a spine.
 

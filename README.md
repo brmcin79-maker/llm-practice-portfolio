@@ -89,6 +89,19 @@ The program is in active development. The gaps below are the live research — n
    important turns write an event
 ```
 
+### Ingest and dossiers
+
+One concrete example of **gated pattern-sense**: bringing material in is **environment** (local files). Using it in chat is a separate **grant** on this pulse. The model is not engaged on the write.
+
+| | **AI off** | **AI on** (chat connected) |
+|---|------------|------------------------------|
+| **Bring material in** | `INGEST TEXT`, `INGEST FILE`, `INGEST CLIPBOARD` → a numbered **dossier** on disk. Scenario Build and Atlas offer the same seam anytime. | Same path. Ingest never calls the model. |
+| **Work the dossier** | `LIST DOSSIERS` · `OPEN DOSSIER` · `LOCK DOSSIER`. **STUDY** outline / quiz / critique runs locally (headings, key sentences — no model spend). Optional **OCR** → dossier when a local engine is installed. | When talk points at *the dossier* or *that file*, local places a **named slice** in this pulse’s pack (~1,600 chars) with coverage honesty (“opening slice only — do not claim you read the whole file”). The model does not browse the house. |
+| **Long text** | A 10,000-word essay sits in the dossier whether or not a model is connected. Initial ingest may clip very long pastes; **LONGTEXT CHECK** sizes a file before any model sees it. | **N11 longtext gates** warn (~50k chars) or refuse (~200k) before an adapter runs. Section-by-section grant is local choreography — not one dump that simulates a close read. |
+| **Safety** | API-key-shaped paste is blocked from dossier storage. Accidental ingest is never minted as a task. | Receipts (dossier slices, fetched pages) must be granted this pulse. Trained world-knowledge is free; pretending to have read what was not granted is not. |
+
+Full feature map: [product/](product/README.md#document-ingest-and-dossiers). Consent and pack rules: [ai/](ai/README.md#ingest-and-dossiers).
+
 ---
 
 ## Open barriers
@@ -113,7 +126,7 @@ Full forensic compare: [How a pulse applies awareness](forensic/HOW_DANIEL_PULSE
 |--------|------------|
 | [evolution/](evolution/README.md) | Education: ChatGPT → Gemini; constitutions; LLM scripting; turns → pulses |
 | [planning/](planning/README.md) | How models are run as collaborators |
-| [product/](product/README.md) | What was compiled: gates, catalog, living docs, tests |
+| [product/](product/README.md) | What was compiled: gates, catalog, living docs, ingest, tests |
 | [ai/](ai/README.md) | Nested consent; per-turn pack; AI-off floor |
 | [forensic/](forensic/README.md) | How the running program compares to written constraints |
 | [highlights/](highlights/README.md) | Sanitized gate excerpt. Full source stays private |

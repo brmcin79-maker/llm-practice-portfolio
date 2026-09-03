@@ -205,6 +205,16 @@ If a sitting cannot move because the model is down, that sitting used AI as the 
 
 ## How local Daniel works with chunks of data
 
+### Ingest and dossiers
+
+**Store (AI never required).** `INGEST TEXT`, `INGEST FILE`, and `INGEST CLIPBOARD` write a numbered dossier under `data/dossiers/`. Scenario Build and Atlas expose the same seam. The write path does not call an adapter. Sensitive paste is blocked. Accidental ingest is never minted as a task.
+
+**Work locally (AI never required).** `LIST DOSSIERS` · `OPEN DOSSIER` · `LOCK DOSSIER`. **STUDY** outline / quiz / critique uses DET templates on the locked body. **OCR** creates a dossier when a local engine exists. **LONGTEXT CHECK** sizes text before any model job.
+
+**Grant (only when chat is connected and talk points at it).** Local classifies environment-smell (*the dossier*, *that file*, *the essay*). It does not fetch. It reads the active dossier, places one strip in this pulse’s pack (~1,600 chars), and attaches coverage honesty. N11 longtext may warn or refuse before spend. The model has no tool belt — it cannot browse dossiers.
+
+**Long text.** Ingest is environment. The write does not call the model. When talk later needs the essay, local grants named sections plus a coverage fact: what has been given this sitting, what has not. Map-reduce is local choreography — section by section, then optional one pass over the stitch — not one dump that simulates a close read.
+
 ### What lives locally (no model needed)
 
 - Ledger rows and project headings
@@ -233,9 +243,9 @@ No whole-tree dump “just in case.” No forty tools. The model does not choose
 
 ### With AI off
 
-Chunks still exist. He still writes the spine. He still stores the dossier. STUDY can outline locally. SEARCH is local. SHOW BOUNDARY reads the hot slice. A 10,000-word essay sits in the dossier whether or not a model is connected.
+Chunks still exist. He still writes the spine. He still stores the dossier. **INGEST** and **STUDY** run locally. SEARCH is local. SHOW BOUNDARY reads the hot slice. A 10,000-word essay sits in the dossier whether or not a model is connected.
 
-He does not pretend he “read” the whole essay into a chat window. Fitting a window is not reading.
+He does not pretend he “read” the whole essay into a chat window. Fitting a window is not reading. See [Ingest and dossiers](#ingest-and-dossiers).
 
 ### With AI on
 
@@ -248,7 +258,7 @@ Each pulse gets a **hot slice**, not the whole house:
 
 Quiet-help crumbs live on the **local hold**, not in the model window. Re-inject the hot slice every pulse. The window is not memory. Ledger + spine + stored talk are memory.
 
-**Long text.** Ingest is environment. The write does not call the model. When talk later needs the essay, local grants named sections plus a coverage fact: what has been given this sitting, what has not. Map-reduce is local choreography — section by section, then optional one pass over the stitch — not one dump that simulates a close read.
+**Long text.** See [Ingest and dossiers](#ingest-and-dossiers). Section grant and map-reduce are local choreography.
 
 **Old talk.** Unique hit injects silently. Ambiguous: local shows numbered stored talks and asks which one. The model does not interview for memory. After you agree, that strip may enter the pack. The model cannot override the receipt.
 

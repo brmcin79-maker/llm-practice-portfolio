@@ -11,8 +11,8 @@ The public landing has the 30-second map: [What I learned about LLMs — and how
 **Sources (private):**
 
 - Daniel V1 — local folder `task logger agent`. Frozen. Not in development.
-- Pre-V1 phase program — local Drive folder, still being organized. Not yet copied into the private archive.
-- Early experiments — [brmcin79-maker/AI-LLM-Archive](https://github.com/brmcin79-maker/AI-LLM-Archive) (first file set). Stays private.
+- Pre-V1 LLM scripting — private archive [`04-Pre-IDE-LLM-Scripting`](https://github.com/brmcin79-maker/AI-LLM-Archive) (second file set). Stays private.
+- Early experiments — [brmcin79-maker/AI-LLM-Archive](https://github.com/brmcin79-maker/AI-LLM-Archive) (first file set, folders `01`–`03`). Stays private.
 
 Private sources stay private. This page is the methods.
 
@@ -152,7 +152,7 @@ The operator wrote and refined the script. The LLM executed it: draft the next a
 
 That is the demonstration: a full system of authority, glossary, formulas, commands, boot, audit, thread-migration, and **numbered LLM-turn tracking** was grown **by scripting a language model**, before any of it was compiled.
 
-Bodies of those Docs are not copied here. The map below is from the folder inventory, version stamps, and analysis titles. The folder is not in `AI-LLM-Archive` yet.
+Bodies of those Docs are not copied here. The map below is from the folder inventory, version stamps, and analysis titles. A curated copy now lives in the private archive as `04-Pre-IDE-LLM-Scripting`.
 
 ### Turns, then pulses — searchable LLM activity
 

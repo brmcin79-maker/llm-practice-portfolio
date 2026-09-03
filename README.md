@@ -22,21 +22,27 @@ Daniel V2 is a private local program used to apply that education. This reposito
 | **How models are used in development** | Separate jobs so one model does not plan, implement, and grade the same change. Written constraints in small chunks. One scoped paper at a time. Brainstorm (AI Studio) is not the same job as implement (Cursor). Environments also include Visual Studio and VS Code with GitHub Copilot. |
 | **How work is evaluated** | Hands-on review against written criteria. Gaps stay named. A slice is complete when tests and a receipt land — not when a model says it is done. |
 
-The education path is [evolution/](evolution/README.md).
+The education path (hosts, constitutions, LLM scripting, turns → pulses, V1 → V2) is [evolution/](evolution/README.md). The table in the next section is the same story as **finding → design**.
 
 ---
 
-## What I learned about LLMs
+## What I learned about LLMs — and how it was applied
 
-An LLM is strong at **pattern-sense**. That is useful in a business setting only if something else is the floor.
+An LLM is strong at **pattern-sense**. It is not a system of record, a consent gate, or a memory. That split is the education. Daniel V1 and V2 are where it was compiled — not as a product pitch, as the proof that the finding changed the design.
 
-| The model can | The model must not be asked to |
-|---------------|--------------------------------|
-| Pattern-match over facts granted for this turn | Remember sessions, enforce a yes, or hold a command table |
-| Speed up document and design loops (LLM scripting) | Be the system of record or the application |
-| Restate a named local take; fill one handle when asked | Classify the line, write the ledger, browse files, or run the session |
+Evidence and file counts: [evolution/](evolution/README.md).
 
-Models were not abandoned. They were **gated**: use the pattern engine; do not let it be the product.
+| Finding | How I learned it | What I built from it |
+|---------|------------------|----------------------|
+| **The window is blank when it ends.** Two threads on the same work diverge. | ChatGPT, then Gemini (~April 2025). Re-instruct every thread; seed packets with checksums; sender/receiver migration papers. None of that made the model remember. | Local files and a **spine** are memory. Each optional model pulse gets a **hot-slice pack** for that turn only — not the house. |
+| **A constitution in a prompt is a suggestion.** The model can paraphrase it, skip a gate, or load yesterday’s version. | Pre-V1 **LLM scripting**: hundreds of versioned Docs — SAM (~100), identity (~60), command registry (~80), INITIATE boot, audit suites. No compiler to reject a stale paper. | Written law lives in a planning repo. **Enforcement is code**: command table, numbered consent, local line classification. Chat is not the lock. |
+| **You can grow a whole system by scripting a model** — create, name, version — and still cannot enforce it. | Gemini-era document families (no Python yet). Version stamps instead of overwrite. | Living catalog: Atlas / HELP / README AUTO are views of the **real** command table (`REFRESH DOCS`). One scoped paper, tests, and a receipt — not “the model said it shipped.” |
+| **A host thread is a scroll, not an address.** You cannot cite “the model call on that date, that number.” | Turns, then **pulses**, while still in Docs. Historical reports ranged **pulse 270–414**. | Each typed line is pulse N. Important turns write a spine event. `SEARCH PULSE` / `SEARCH CHAT`. V1 journals migrate in; sources stay. |
+| **Propose, wait, verify — do not mutate.** | Lead PM / Scan / Train roles in chat. “Wait for a yes” was an instruction, not a gate. | **Three development jobs** (brainstorm ≠ plan ≠ implement). In the program: a digit, YES, or a real command writes; liking a suggestion does not. |
+| **Catalog text can lie.** | V1 (Task Logger) could print living docs the parser did not have (“0 parser commands”). | V2 is a **clean-room rebuild** of the jobs that still mattered — not a file-port. One table, several views. |
+| **Pattern-sense is useful if it is gated.** | Hosted chat, then IDE work (Copilot, Cursor, AI Studio). Models were not abandoned. | Nested consent (connect path → quieter doors). Ingest **stores** without calling a model; talk later may **grant** a named slice. Local review wins after a reply. |
+
+The same findings show up as **how I develop** (next section) and as **what the program enforces** ([Daniel V2](#daniel-v2-context)).
 
 ---
 
@@ -124,7 +130,7 @@ Full forensic compare: [How a pulse applies awareness](forensic/HOW_DANIEL_PULSE
 
 | Folder | What it is |
 |--------|------------|
-| [evolution/](evolution/README.md) | Education: ChatGPT → Gemini; constitutions; LLM scripting; turns → pulses |
+| [evolution/](evolution/README.md) | Education behind the landing table: ChatGPT → Gemini; constitutions; LLM scripting; turns → pulses |
 | [planning/](planning/README.md) | How models are run as collaborators |
 | [product/](product/README.md) | What was compiled: gates, catalog, living docs, ingest, tests |
 | [ai/](ai/README.md) | Nested consent; per-turn pack; AI-off floor |

@@ -4,6 +4,8 @@
 
 This folder is the education. Daniel is the program that compiled it. The model was not dropped. What was learned was used to **gate** it, make sittings deterministic, and work with models in an IDE without letting chat become the authority.
 
+The public landing has the 30-second map: [What I learned about LLMs — and how it was applied](../README.md#what-i-learned-about-llms--and-how-it-was-applied). This page is the evidence behind that table.
+
 **Status:** work in progress. This page will grow as more private files are sorted.
 
 **Sources (private):**

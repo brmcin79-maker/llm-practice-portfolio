@@ -109,15 +109,18 @@ The program is in active development. The gaps below are the live research — n
 | How a typed line is handled | Diagram below · [forensic/](forensic/README.md) |
 | One gate in code | [highlights/](highlights/README.md) |
 
+![How a typed line is handled](highlights/typed-line.svg)
+
+Local code reads the line first. **Commands** and **digits** never call a model. **Talk** is a local take (stuck / empty / nod / leftover). Optional models sit behind nested doors: connect a path, then quiet help (one handle), then paint (restate a take already named). The pack is this pulse only. Local review wins. Important turns write a **spine** event — not every line.
+
 ```text
-[LOCAL FLOOR]
-   typed line → pulse N
-        ├── COMMAND  → dispatch (model bypassed)
-        ├── DIGIT    → consent (model bypassed)
-        └── TALK
-              ├── local classifier
-              └── optional gated model (restate, or one assist handle)
-   important turns write an event
+typed line → pulse N
+   ├── COMMAND  → dispatch (model bypassed)
+   ├── DIGIT    → numbered yes (model bypassed)
+   └── TALK
+         ├── local classifier → local take (AI off still moves)
+         └── optional gated model (quiet help, paint, or free chat over a small pack)
+   important turns write a spine event
 ```
 
 ### Ingest and dossiers

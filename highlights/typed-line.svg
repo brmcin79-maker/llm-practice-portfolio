@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">How a typed line is handled</title>
+  <desc id="desc">Local code classifies the line first. Commands and digits bypass the model. Talk is local; optional gated models may paint, fill one handle, or chat over a small pack. Important turns write a spine event.</desc>
+  <rect width="920" height="560" fill="#fafafa"/>
+  <text x="460" y="36" text-anchor="middle" font-family="Georgia, Times, serif" font-size="20" fill="#1a1a1a">How a typed line is handled</text>
+  <text x="460" y="58" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" fill="#555">Local floor first. The model is optional. AI off still moves.</text>
+
+  <rect x="330" y="78" width="260" height="44" rx="4" fill="#1a1a1a"/>
+  <text x="460" y="105" text-anchor="middle" font-family="Georgia, Times, serif" font-size="14" fill="#fafafa">Typed line ’ pulse N</text>
+
+  <line x1="460" y1="122" x2="460" y2="158" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="158" x2="780" y2="158" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="158" x2="140" y2="178" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="460" y1="158" x2="460" y2="178" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="780" y1="158" x2="780" y2="178" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <!-- Command -->
+  <rect x="30" y="178" width="220" height="72" rx="4" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="140" y="204" text-anchor="middle" font-family="Georgia, Times, serif" font-size="13" font-weight="600" fill="#1a1a1a">Command</text>
+  <text x="140" y="224" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">In the command table</text>
+  <text x="140" y="240" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Dispatch · model bypassed</text>
+
+  <!-- Digit -->
+  <rect x="350" y="178" width="220" height="72" rx="4" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="460" y="204" text-anchor="middle" font-family="Georgia, Times, serif" font-size="13" font-weight="600" fill="#1a1a1a">Digit</text>
+  <text x="460" y="224" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Live numbered list</text>
+  <text x="460" y="240" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">A yes · model bypassed</text>
+
+  <!-- Talk -->
+  <rect x="670" y="178" width="220" height="72" rx="4" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="780" y="204" text-anchor="middle" font-family="Georgia, Times, serif" font-size="13" font-weight="600" fill="#1a1a1a">Talk</text>
+  <text x="780" y="224" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Stay-with or leftover</text>
+  <text x="780" y="240" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Local classifies the line</text>
+
+  <line x1="780" y1="250" x2="780" y2="278" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="630" y="278" width="260" height="88" rx="4" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="760" y="304" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" font-weight="600" fill="#1a1a1a">Local take</text>
+  <text x="760" y="322" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Stuck / empty / nod / leftover</text>
+  <text x="760" y="338" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">One method this pulse if blocked</text>
+  <text x="760" y="354" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">This path does not need a model</text>
+
+  <line x1="780" y1="366" x2="780" y2="392" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="600" y="392" width="290" height="108" rx="4" fill="#fff" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="745" y="416" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" font-weight="600" fill="#1a1a1a">Optional model (nested doors)</text>
+  <text x="745" y="436" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Connect path ’ chat possible</text>
+  <text x="745" y="452" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Quiet help ’ one handle before the take</text>
+  <text x="745" y="468" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Paint ’ restate a take local already named</text>
+  <text x="745" y="484" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#333">Pack is this pulse only · local review wins</text>
+
+  <rect x="30" y="500" width="860" height="36" rx="4" fill="#eee"/>
+  <text x="460" y="523" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" fill="#1a1a1a">Important turns write a spine event  not every line. Files and the spine are memory. The model window is not.</text>
+</svg>

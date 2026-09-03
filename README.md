@@ -40,9 +40,34 @@ Evidence and file counts: [evolution/](evolution/README.md).
 | **A host thread is a scroll, not an address.** You cannot cite “the model call on that date, that number.” | Turns, then **pulses**, while still in Docs. Historical reports ranged **pulse 270–414**. | Each typed line is pulse N. Important turns write a spine event. `SEARCH PULSE` / `SEARCH CHAT`. V1 journals migrate in; sources stay. |
 | **Propose, wait, verify — do not mutate.** | Lead PM / Scan / Train roles in chat. “Wait for a yes” was an instruction, not a gate. | **Three development jobs** (brainstorm ≠ plan ≠ implement). In the program: a digit, YES, or a real command writes; liking a suggestion does not. |
 | **Catalog text can lie.** | V1 (Task Logger) could print living docs the parser did not have (“0 parser commands”). | V2 is a **clean-room rebuild** of the jobs that still mattered — not a file-port. One table, several views. |
+| **A stored knowledge base is still tokens in the same window.** Scripts, Gems, and Studio files simulate memory; they do not give the model recall of every detail. | Gemini (~2M-token threads advertised) and Google AI Studio. Re-load constitutions to re-anchor. Upload ≠ a close read. | **Grant a named slice this pulse** (chunk / RAG instinct). Ingest stores locally. Longtext gates refuse a dump. Local review wins after the reply. See [Context is not memory](#context-is-not-memory). |
 | **Pattern-sense is useful if it is gated.** | Hosted chat, then IDE work (Copilot, Cursor, AI Studio). Models were not abandoned. | Nested consent (connect path → quieter doors). Ingest **stores** without calling a model; talk later may **grant** a named slice. Local review wins after a reply. |
 
 The same findings show up as **how I develop** (next section) and as **what the program enforces** ([Daniel V2](#daniel-v2-context)).
+
+---
+
+## Context is not memory
+
+This is the LLM finding I want a hiring scan to see clearly. It is also why Daniel treats ingest, pulses, and the hot-slice pack as **code jobs**, not as a bigger prompt.
+
+**What is true**
+
+| Claim | Why it holds |
+|-------|----------------|
+| **Scripting can simulate memory.** | Re-instructing a thread, a Gemini **Gem**, or an AI Studio system instruction + files makes the sitting *look* continuous. The host is re-injecting text. The model is not holding a store. |
+| **A live thread competes with that script.** | Attention is not uniform ([lost in the middle](https://arxiv.org/abs/2307.03172); [context rot](https://research.trychroma.com/context-rot)). Recent turns often outweigh a long constitution or an uploaded knowledge base. Instruction drift is normal as the window fills — even when the file is still “attached.” |
+| **Advertised context ≠ usable recall.** | Gemini 1.5 Pro advertised up to **2 million tokens**. Needle-in-a-haystack tests can look strong while reasoning over the whole dump, or retrieving a buried constraint, degrades. The model will still speak as if it has the full kit. |
+| **Upload is not a close read.** | Fitting a window is not reading. Files can be truncated, summarized, or attended only in part. Reloading a document re-anchors focus (it puts the lock back where attention is strong). It does not guarantee the next reply used every page. |
+| **That is why RAG, chunking, and deterministic code.** | Retrieve and **grant the slice this turn**. Do not dump the house. The things that must not drift — consent, the command table, what was actually granted — belong in local code. RAG is still the model; local review still wins. |
+
+**What I am not claiming**
+
+- That a Gem or Studio “overrides” the model as a separate memory chip. Knowledge files and the chat share **one** context window. They compete.
+- That hallucinations only start in long threads. They happen at any length. Long context makes **false recall** harder to notice.
+- That RAG is a third kind of memory. It is controlled re-granting — the same instinct as a per-pulse pack.
+
+**How this shows up in the work:** ingest stores without calling a model; talk may grant a named section with coverage honesty; N11 longtext warns or refuses a dump; the spine is searchable after the window dies. Detail: [evolution/](evolution/README.md) · [ai/](ai/README.md#ingest-and-dossiers) · [ingest on this page](#ingest-and-dossiers).
 
 ---
 

@@ -35,6 +35,8 @@ An LLM is a **pattern engine**. That is valuable. It is not a system of record, 
 
 **For a business or a developer**, that split is the education. Use the pattern engine. Do not let it be the floor. Local code classifies the line, numbered consent writes state, the pulse is a searchable address for enhanced activity, and each model call gets only the pack this beat granted.
 
+A stored Gem, Studio kit, or scripted constitution **simulates** memory. It still shares the same context window as the live thread. Advertised length (Gemini’s ~2M-token claim included) is not uniform recall. That finding is written for a hiring scan as [Context is not memory](../README.md#context-is-not-memory).
+
 The rest of this page is how that was learned: stateless chat, written constitutions that could not lock, extensive LLM scripting, turns then pulses, then V1/V2 as deterministic programs with the model still in the loop — gated.
 
 ---
